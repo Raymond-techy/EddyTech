@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dev_EDDY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="home">
+      <div class="navbar">
+        <div class="nav-logo">
+          <img src="./img/eddyLogo.png" alt="Eddy" />
+        </div>
+        <div class="nav-ul">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <span class="open-slide">
+          <a href="#" onClick="openSlidemenu()">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+            </svg>
+          </a>
+        </span>
+      </div>
+      <div class="nav-mobile">
+        <div class="navbarmob">
+          <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
+            <div class="nav-ulmob">
+              <div class="nav-logomb">
+                <img src="./img/eddyLogo.png" alt="Eddy" />
+              </div>
+              <ul>
+                <li><i class="fas fa-home"></i><a href="#home">Home</a></li>
+                <li><i class="fas fa-user"></i><a href="#about">About</a></li>
+                <li><i class="fas fa-tools"></i><a href="#skill">Skills</a></li>
+                <li>
+                  <i class="fas fa-tasks"></i><a href="#project">Projects</a>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i><a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="showcase1">
+        <div class="showcase-txt">
+          <h1>Hello,</h1>
+          <h1>I,m A'Rahman</h1>
+          <h3>Frontend <span>Web</span> Developer</h3>
+          <p>
+            I am a frontend software developer and programmer based in Ibadan
+            Nigeria,who builds thoughtful, engaging and aesthetically pleasing
+            interactive web applications. If you are in search of a frontend
+            developer who enjoys solving problems and is eager to learn and
+            contribute, I'd love to hear from you!
+          </p>
+          <div class="cont-btn">
+            <a href="https://github.com/Raymond-techy/" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a
+              href="https://www.linkedin.com/in/adunola-abdulrahman-592786211/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="show-btn">
+            <button class="btn1">Contact</button>
+            <button class="btn2">Projects</button>
+          </div>
+        </div>
+        <div class="showcase-img">
+          <!-- <img src="./img/ab-img.png" alt="" /> -->
+        </div>
+      </div>
+      <div id="about" style="height: 100px" class="navigator"></div>
+      <div class="about">
+        <div class="showcase2">
+          <div class="about-txt">
+            <h1>about me</h1>
+            <p>
+              i'm Adunola AbdulRahman a frontend developer who enjoins solving
+              problems with modern technologies i actually started as an arduino
+              developer and later tarnsitioned to web and software development I
+              primarily focus on growing my skills in HTML, CSS, JavaScript and
+              the MERN Stack as a frontend developer, eventually, I intend to
+              transition into full-stack development. I also enjoy learning new
+              or different technologies.
+            </p>
+            <a
+              href="https://raymond-techy.github.io/text-to-speech/"
+              target="_blank"
+              ><button>Resume</button></a
+            >
+          </div>
+          <div class="about-img">
+            <img src="./img/ab-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="project" style="height: 100px" class="navigator"></div>
+      <div class="projects">
+        <h1 class="p-header">
+          projects|<span><p>building applications</p></span>
+        </h1>
+        <div class="project">
+          <div class="project-box">
+            <div class="project-txt">
+              <p class="description">vanilla Js</p>
+              <h1>Netflix Clone</h1>
+              <p>
+                An application that converts your input text to speech with
+                different voices selection.
+              </p>
+              <div class="tech-txt">
+                <p><i class="fab fa-html5"></i>Html5</p>
+                <p><i class="fab fa-css3"></i>Css3</p>
+                <p><i class="fab fa-js"></i>Vanilla Js</p>
+              </div>
+              <a
+                href="https://raymond-techy.github.io/Netflix-clone/"
+                target="_blank"
+                ><button>Demo</button></a
+              >
+              <a
+                href="https://github.com/Raymond-techy/Netflix-clone"
+                target="_blank"
+                ><button><i class="fab fa-github"></i></button
+              ></a>
+            </div>
+            <img src="./img/screenshot (2).png" alt="" />
+          </div>
+          <div class="project-box">
+            <img src="./img/screenshot (1).png" alt="" />
+            <div class="project-txt">
+              <p class="description">vanilla Js</p>
+              <h1>Text-To-speech</h1>
+              <p>
+                An application that converts your input text to speech with
+                different voices selection.
+              </p>
+              <div class="tech-txt">
+                <p><i class="fab fa-html5"></i>Html5</p>
+                <p><i class="fab fa-css3"></i>Css3</p>
+                <p><i class="fab fa-js"></i>Vanilla Js</p>
+              </div>
+              <a
+                href="https://raymond-techy.github.io/text-to-speech/"
+                target="_blank"
+                ><button>Demo</button></a
+              >
+              <a
+                href="https://github.com/Raymond-techy/text-to-speech/tree/master/dist"
+                target="_blank"
+                ><button><i class="fab fa-github"></i></button
+              ></a>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-txt">
+              <p class="description">React Js</p>
+              <h1>Feedback App</h1>
+              <p>
+                An application that converts your input text to speech with
+                different voices selection.
+              </p>
+              <div class="tech-txt">
+                <p><i class="fab fa-html5"></i>Html5</p>
+                <p><i class="fab fa-css3"></i>Css3</p>
+                <p><i class="fab fa-react"></i>React Js</p>
+              </div>
+              <a href="#"><button>Demo</button></a>
+              <a href=""
+                ><button><i class="fab fa-github"></i></button
+              ></a>
+            </div>
+            <img
+              src="./img/smile_effects__1_-removebg-preview (1).png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div id="skill" style="height: 100px" class="navigator"></div>
+      <div class="skills" id="skill">
+        <h3 class="skill-header">
+          Skills|<span><p>languages i use</p></span>
+        </h3>
+        <div class="skill-box">
+          <span>
+            <i class="fab fa-html5"></i>
+            <p>HTML5</p>
+          </span>
+          <span>
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS3</p>
+          </span>
+          <span>
+            <i class="fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </span>
+          <span>
+            <i class="fab fa-react"></i>
+            <p>React</p>
+          </span>
+          <span>
+            <i class="fab fa-php"></i>
+            <p>php</p>
+          </span>
+          <span>
+            <i class="fab fa-wordpress"></i>
+            <p>wordpress</p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="left-icon">
+      <a href="https://github.com/Raymond-techy/" target="_blank">
+        <i class="fab fa-github"></i>
+        <p>Github</p>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/adunola-abdulrahman-592786211/"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin-in"></i>
+        <p>linkedin</p>
+      </a>
+    </div>
+    <div id="contact" style="height: 50px"></div>
+    <div class="contact-us">
+      <p class="p-header">contact</p>
+      <div class="contact-box">
+        <div class="Firstbox">
+          <div class="indbox">
+            <i class="fas fa-paper-plane"></i>
+            <h1>Address</h1>
+            <p>No 3,Aba odo Olodo Ibadan Nigeria</p>
+          </div>
+          <div class="indbox">
+            <i class="fas fa-email"></i>
+            <h1>Email</h1>
+            <p>eddywebhome@gmail.com</p>
+          </div>
+          <div class="indbox">
+            <i class="fas fa-mobile"></i>
+            <h1>Phone</h1>
+            <p>(+234)8114992750</p>
+          </div>
+        </div>
+        <div class="sec-box">
+          <form action="">
+            <input type="text" placeholder="FirstName" />
+            <input type="mail" placeholder="LastName" />
+            <input type="text" placeholder="Your Email" />
+            <textarea
+              name="message"
+              cols="20"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" id="form-sub" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot-elem">
+        <p>copy @Dev_EDDY2020</p>
+        <span>
+          <div class="cont-btn">
+            <a href="https://github.com/Raymond-techy/" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a
+              href="https://www.linkedin.com/in/adunola-abdulrahman-592786211/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+        </span>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const eddy = document.querySelectorAll("ul li a");
+    for (i = 0; i < eddy.length; i++) {
+      eddy[i].addEventListener("click", function () {
+        remove();
+        this.classList.add("eddysha");
+        this.style.color = "#ff6a95";
+      });
+    }
+    function remove() {
+      eddy.forEach((item) => {
+        item.classList.remove("eddysha");
+        item.style.color = "#fff";
+      });
+    }
+    function openSlidemenu() {
+      document.getElementById("side-menu").style.width = "250px";
+    }
+    function closeSlideMenu() {
+      document.getElementById("side-menu").style.width = "0";
+      console.log("done again");
+    }
+  </script>
+</html>

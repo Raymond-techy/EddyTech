@@ -1,0 +1,19 @@
+{
+  "name": "eddy-port",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Raymond-techy.github.io/EddyTech",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raymond-techy/EddyTech.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Raymond-techy/EddyTech/issues"
+  },
+  "description": ""
+}
