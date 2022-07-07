@@ -7,9 +7,6 @@
   overflow-x: hidden;
   /* overflow-y: hidden; */
 }
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -515,6 +512,13 @@ img {
   .nav-logomb img {
     width: 80%;
     margin: 20px auto;
+  }
+  .navbarmob ul li {
+    text-align: left;
+    margin-left: -20%;
+  }
+  .navbarmob ul li p {
+    text-align: left;
   }
   .navbarmob ul i {
     color: #ff6a95;
