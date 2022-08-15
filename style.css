@@ -297,6 +297,7 @@ img {
 .tech-txt {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
@@ -356,16 +357,10 @@ img {
   color: #fff;
   outline: none;
 }
-/* .sec-box form input, 
-.sec-box form input :focus {
-  outline: none !important;
-  border: yellow solid 1px;
-}*/
 .Firstbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   margin: 20px auto;
   width: 80%;
 }
@@ -483,8 +478,10 @@ img {
     margin-bottom: 20px;
   }
   .about-img {
-    width: 70%;
-    margin: 10px auto;
+    display: none;
+  }
+  .about {
+    padding: 10px;
   }
   .skill-box {
     display: grid;
